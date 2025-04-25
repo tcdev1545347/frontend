@@ -76,8 +76,7 @@ export default function MyFilesPage() {
 
     // Encode filename for the URL path
     const encodedFilename = encodeURIComponent(file.name);
-    const UPLOAD_ENDPOINT = import.meta.env.VITE_UPLOAD_ENDPOINT + `/${groupId}/${encodedFilename}`;
-
+    const UPLOAD_ENDPOINT = `${import.meta.env.VITE_UPLOAD_FILE_ENDPOINT}/${encodedFilename}/${groupId}`;
     try {
       const response = await fetch(UPLOAD_ENDPOINT, {
         method: "PUT", // Use PUT as we're specifying the resource path
