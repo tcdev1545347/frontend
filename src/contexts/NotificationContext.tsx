@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, useCallback, useMemo, ReactNode } from 'react';
+import { createContext, useState, useContext, useCallback, useMemo, ReactNode } from 'react';
 
 // Define the shape of a group (minimal for context)
 interface GroupInfo {
