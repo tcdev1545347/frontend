@@ -1,4 +1,48 @@
-# React + TypeScript + Vite
+# SafeDrop - File Sharing and Messaging Made Securely!
+
+## Description
+
+This cloud computing project is a web application built with React, TypeScript, and Vite. It offers a secure and responsive user experience for group creation, file sharing, and messaging. The application uses Amazon Web Services (AWS) for its robust backend capabilities.
+
+Tech Stack:
+* React
+* TypeScript
+* Vite
+
+Additional Technologies For This Project:
+* AWS Gateway, Lambda, S3, KMS, DynamoDB, Cloudwatch, IAM Policies
+* HTML
+* CSS (Tailwind CSS)
+* Python
+* JavaScript 
+
+## Members and Their Respective Roles
+
+1. Tien Cao - Back-End Developer & Cloud Computing Developer
+2. Caitlin Chau - Front-End Developer
+3. Justin Ramirez - Front-End Developer
+4. Windly Nguyen - Project Manager & Front-End Developer
+
+## Installation Instructions
+
+1. Clone the repository or download all files:
+```bash
+  git clone <https://github.com/tcdev1545347/frontend>
+```
+
+2. With the Node.js terminal, install the dependencies:
+```bash
+  npm install
+```
+
+3. Run the server or project:
+```bash
+  npm run dev
+```
+
+4. Open the application in your preferred browser using the link given in the terminal.
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -52,3 +96,4 @@ export default tseslint.config({
   },
 })
 ```
+
