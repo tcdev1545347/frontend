@@ -182,7 +182,14 @@ export default function HomePage() {
   // --- Render Page Content ---
   return (
     <div className="container mx-auto p-4 sm:p-6 lg:p-8">
-
+      
+      {/* --- Title Section ---*/}
+      <div className="flex items-center gap-3 pb-4 mb-6">
+        <h1>
+          Welcome to SafeDrop!
+        </h1>
+      </div>
+      
       {/* --- Create Group Section --- */}
       {/* Wrap in a Card for consistent styling */}
       <Card className="mb-8 shadow-sm">
